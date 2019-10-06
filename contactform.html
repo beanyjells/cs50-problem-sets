@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="contactformstyle.css" rel="stylesheet">
+        <title>Contact Form</title>
+    </head>
+    <body>
+      <!-- asking user to enter their email -->
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address:</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small> <!--reassuring user with comment-->
+      </div>
+
+      <!--asking user for their feedback or comments-->
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Leave your comments here:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <!--asking for user's permission to send them emails-->
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check this box to receive messages from me</label>
+      </div>
+
+      <!--eyecatching submit button-->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </body>
+</html>

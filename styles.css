@@ -1,0 +1,52 @@
+body
+{
+    background-color: lightblue; /* sets background colour */
+}
+
+header
+{
+    margin: 30px; /* so that the header text doesn't touch the edge of the screen*/
+}
+
+h1
+{
+    color: white;
+    text-align: center; /* centre alignment of text */
+}
+
+h2
+{
+    text-align: center;
+}
+
+h3
+{
+    color: white;
+    text-align: center;
+}
+
+main
+{
+    margin: 60px 10px 35px 10px; /* differentiating the main text */
+    font-family: verdana;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer
+{
+    text-align: center; /* makes sure footer text is small*/
+    font-size: 8px;
+}
+
+heading /* keeping the heading distinct*/
+{
+    margin: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+div /* keeping it neat and spaced out*/
+{
+    margin: 30px;
+}
