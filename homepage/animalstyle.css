@@ -1,0 +1,11 @@
+body
+{
+    background-color: lightyellow; /* different colour for a new page*/
+}
+
+
+heading
+{
+    font-size: 40px; /* keeps the heading large */
+    color: purple;
+}
